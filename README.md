@@ -2,7 +2,7 @@
 
 A redesigned and visually improved version of a photo-sharing web application. This project was completed as part of the COMP2110 unit at Macquarie University. The original layout was provided, and the task was to enhance the interface using modern HTML and CSS techniques.
 
-<img width="1902" height="902" alt="Screenshot 2025-07-18 194825" src="https://github.com/user-attachments/assets/d283b011-94d4-4ba7-a1db-eec69515960d" />
+<img width="1899" height="907" alt="Screenshot 2025-07-18 194825" src="https://github.com/user-attachments/assets/3853dc68-7ee1-452f-81a5-f5d609ab086d" />
 
 ## About the Website
 
@@ -24,30 +24,30 @@ The project required a complete front-end redesign while retaining core componen
 
 I independently handled all aspects of the redesign, including:
 
-- **Layout Rebuild:** Completely rewrote the HTML and CSS for the front page
-- **UI Improvements:** Implemented card-style shadows instead of borders, refined button styles, and ensured consistent white backgrounds across sections
-- **Responsiveness** Improved sidebar and main content behavior to align properly
-- **Accessibility & Readability:** Ensured contrast, text legibility, and semantic HTML were prioritized
-- **Visual Enhancements:** Ensured all posts had appropriate spacing and that the sidebar sections aligned in height with the content area
+- **Layout Rebuild:** Completely rewrote the HTML and CSS for the front page.
+- **UI Improvements:** Implemented card-style shadows instead of borders, refined button styles, and ensured consistent white backgrounds across sections.
+- **Responsiveness** Improved sidebar and main content behavior to align properly.
+- **Accessibility & Readability:** Ensured contrast, text legibility, and semantic HTML were prioritized.
+- **Visual Enhancements:** Ensured all posts had appropriate spacing and that the sidebar sections aligned in height with the content area.
 
 ---
 
 ## Challenges Faced
 
-- **Legacy Markup** The provided HTML had structural limitations requiring a full rewrite
-- **Overflow Issues:** Removing unwanted scrollbars and content restrictions while preserving responsiveness
-- **Sidebar Alignment:** Matching the sidebar height with dynamic content required layout experimentation
-- **Design Consistency:** Ensuring a clean, modern feel without overcomplicating the original concept
-- **Design Choices:** Being fairly new to design I was initially overwhelmed with the amount of choices and couldn't decide what to do
+- **Legacy Markup** The provided HTML had structural limitations requiring a full rewrite.
+- **Overflow Issues:** Removing unwanted scrollbars and content restrictions while preserving responsiveness.
+- **Sidebar Alignment:** Matching the sidebar height with dynamic content required layout experimentation.
+- **Design Consistency:** Ensuring a clean, modern feel without overcomplicating the original concept.
+- **Design Choices:** As someone still developing my design instincts, I initially found the number of possible layout and styling directions overwhelming. Narrowing down a cohesive visual style that felt balanced and modern was a genuine challenge.
 
 ---
 
 ## Key Learnings
 
-- **UI Refinement:** Improved understanding of visual hierarchy, spacing, and form styling
-- **CSS Layouts:** Strengthened my grasp of box models, shadows, fixed heights, and flex/grid alignment
-- **Clean Code Practices:** Learned to rewrite HTML while maintaining clarity and separation of concerns
-- **Design Eye:** Developed a sharper sense of UI polish and user flow
+- **UI Refinement:** Improved understanding of visual hierarchy, spacing, and form styling.
+- **CSS Layouts:** Strengthened my grasp of box models, shadows, fixed heights, and flex/grid alignment.
+- **Clean Code Practices:** Learned to rewrite HTML while maintaining clarity and separation of concerns.
+- **Design Eye:** Developed a sharper sense of UI polish and user flow.
 
 ---
 
@@ -63,7 +63,7 @@ I independently handled all aspects of the redesign, including:
 
 ## Second Redesign
 
-<img width="1902" height="902" alt="image" src="https://github.com/user-attachments/assets/6c22e576-c211-423f-ab18-f4c064b0006f" />
+<img width="1899" height="907" alt="Screenshot 2025-07-18 194825" src="https://github.com/user-attachments/assets/e27db661-fea0-4fc4-90d5-e827f69528d5" />
 
 ---
 
