@@ -53,15 +53,15 @@ I independently handled all aspects of the redesign, including:
 
 ## Screenshots
 
-## Original Layout
+Original Layout
 
 <img width="1372" height="909" alt="image" src="https://github.com/user-attachments/assets/d69f2b34-ef9c-44c0-ba2f-5b786fed7582" />
 
-## First Redesign
+First Redesign
 
 <img width="1647" height="885" alt="year-1-flowtow" src="https://github.com/user-attachments/assets/47f44e7d-ff7b-43fa-b11a-2b19a73c88af" />
 
-## Second Redesign
+Second Redesign
 
 <img width="1899" height="907" alt="Screenshot 2025-07-18 194825" src="https://github.com/user-attachments/assets/e27db661-fea0-4fc4-90d5-e827f69528d5" />
 
