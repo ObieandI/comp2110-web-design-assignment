@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowTow</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/map">Map</a></li>
+        <li><a href="/partners">Our Partners</a></li>
+      </ul>
+    </nav>
+    <form id="search-form" action="/search">
+      <label for="search-input">Search:</label>
+      <input id="search-input" name="search" type="text">
+      <button class="btn">Go</button>
+    </form>
+  </header>
+
+  <div class="main-wrapper">
+
+    <div class="main-content-wrapper">
+
+      <div class="main-title">
+        <h1>Welcome to FlowTow!</h1>
+      </div>
+
+      <div class="main-content">
+        <section id="main-heading">
+          <h2>Most Popular Posts</h2>
+        </section>
+
+        <section class="flowtow-posts">
+          <div class="flowtow">
+            <img class="post-image" src="opera-house.jpg" alt="Opera House">
+            <div class="post-info">
+              <p>User Nick: James Bean</p>
+              <p>Post Date: 2021-02-14</p>
+              <p>Category: Building</p>
+              <p>No. of Likes: 1200 <button class="btn like-button">Like</button></p>
+            </div>
+          </div>
+
+          <div class="flowtow">
+            <img class="post-image" src="sydney.jpg" alt="Sydney">
+            <div class="post-info">
+              <p>User Nick: Mary Contrary</p>
+              <p>Post Date: 2021-02-12</p>
+              <p>Category: Bridge</p>
+              <p>No. of Likes: 1100 <button class="btn like-button">Like</button></p>
+            </div>
+          </div>
+
+          <div class="flowtow">
+            <img class="post-image" src="food.jpg" alt="Food">
+            <div class="post-info">
+              <p>User Nick: Bob Bobalooba</p>
+              <p>Post Date: 2021-02-11</p>
+              <p>Category: Food</p>
+              <p>No. of Likes: 1000 <button class="btn like-button">Like</button></p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <div class="info-box">
+        <h2>What is FlowTow?</h2>
+        <p>FlowTow is a new, exciting photo sharing service like nothing you've seen before!</p>
+        <p>It supports user login, image posting, commenting, and multiple viewing options.</p>
+      </div>
+
+      <div class="info-box">
+        <h2>Sign Up!</h2>
+        <p>Sign up to become a FlowTow user.</p>
+        <form id="registration-form" action="/register" method="POST">
+          <label>Username <input type="text" name="username" /></label>
+          <label>First Name <input type="text" name="firstname" /></label>
+          <label>Last Name <input type="text" name="lastname" /></label>
+          <div class="register-button-container">
+            <input type="submit" value="Register" class="btn" />
+          </div>
+        </form>
+      </div>
+
+      <div class="info-box" id="recent-users">
+        <h2>Popular Creators</h2>
+        <p>Click on a username to review each user's posts.</p>
+        <div class="popular-users">
+          <a href="#" class="user-button">Bob Bobalooba</a>
+          <a href="#" class="user-button">Mary Contrary</a>
+          <a href="#" class="user-button">James Bean</a>
+          <a href="#" class="user-button">Jim Jimbulator</a>
+          <a href="#" class="user-button">Axle Mandible</a>
+          <a href="#" class="user-button">Baz Barfoo</a>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+
+  <footer>
+    <ul>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Cookies</a></li>
+    </ul>
+    <p id="copyright">
+      All content and images subject to copyright &copy; COMP2110 FlowTow 2021.
+    </p>
+  </footer>
+
+</body>
+</html>

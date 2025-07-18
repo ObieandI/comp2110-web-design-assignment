@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(to bottom, #d6f3f2, #a0e4e0);
+}
+
+/* Buttons */
+.btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkcyan;
+}
+
+/* Header */
+header {
+  background-color: white;
+  border-bottom: 1px solid teal;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+nav, #search-form {
+  width: 50%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: darkcyan;
+}
+
+#search-form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#search-input {
+  padding: 0.4rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  width: 12.5rem;
+}
+
+#search-input:focus {
+  border-color: teal;
+  background-color: white;
+}
+
+/* Layout */
+.main-wrapper {
+  width: 70%;
+  margin: 8rem auto 3rem auto;
+  display: flex;
+  gap: 2rem;
+}
+
+/* Left Column */
+.main-content-wrapper {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.main-title {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.main-title h1 {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  height: 92vh;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+#main-heading {
+  background-color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 8px;
+}
+
+#main-heading h2 {
+  font-size: 1.5rem;
+  color: black;
+  background-color: white;
+}
+
+.flowtow-posts {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.flowtow {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+  margin-bottom: 2rem; /* 👈 Adds the space between posts */
+}
+
+
+.post-image {
+  width: 80%;
+  margin: auto;
+  display: block;
+  border-bottom: 1px solid lightgray;
+}
+
+.post-info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.post-info p {
+  margin: 0.5rem 0;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px; 
+}
+
+.info-box {
+  background-color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Registration Form */
+#registration-form {
+  width: 60%;
+}
+
+#registration-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+#registration-form input[type="text"] {
+  padding: 0.4rem;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.register-button-container {
+  margin-top: 1rem;
+}
+
+/* Recent Users */
+.popular-users {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.user-button {
+  padding: 0.6rem 1.2rem;
+  background-color: #f9f9f9;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.user-button:hover {
+  background-color: darkcyan;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background-color: white;
+  border-top: 1px solid lightgray;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+footer a:hover {
+  background-color: lightgray;
+  color: darkcyan;
+}
+
+#copyright {
+  font-size: 0.9rem;
+  color: #333;
+}
